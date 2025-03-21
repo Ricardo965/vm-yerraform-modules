@@ -124,6 +124,8 @@ terraform apply -var-file=secrets.tfvars -auto-approve
 
 Este proceso tomó unos minutos, y al finalizar, obtuve la IP pública de cada máquina en la salida de Terraform.
 
+![ImagenResultado](img/image.png)
+
 ---
 
 ## **6. Conexión a las Máquinas Virtuales**
@@ -132,6 +134,8 @@ Después de la implementación, me conecté a las VMs de la siguiente manera:
 
 - **Ubuntu**:  
   Utilicé **SSH** con la IP pública dada en el output y credenciales definidas en `secrets.tfvars`.
+
+![ImagenResultado](img/ssh.png)
 
 ---
 
